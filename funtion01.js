@@ -13,7 +13,7 @@ let result = addnumbers(4,8);
 
 function loginuser(username){
      if(!username){
-          console.log("Please enter username");
+          console.log("Please enter username"); 
           return;
      }
      return `${username} just logged in`;
@@ -38,7 +38,13 @@ function temp(anyobject){
 }
 
 //temp(obj1);
-temp({
-     name:"xyz",
-     age: 88
-})
+// temp({
+//      name:"xyz",
+//      age: 88
+// })
+
+const add = function addone(value){
+     return value +1;
+}
+
+console.log(add(6));
