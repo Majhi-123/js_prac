@@ -12,4 +12,11 @@
 //"" --> false
 //"Ranjan" --->true;
 //Number "33abc" ==> NaN
+//console.log(2**3) //2 to 3
 
+let str1 ="Ranjan"
+let str2 =" majhi"
+
+console.log(str1 + str2);
+console.log("1" + 2 + 2);
+console.log(1 + 2 + "2");
