@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dom</title>
+</head>
+<body style ="background-color: black; color:azure">
+    <div class="parent">
+        <div class="day">Monday</div>
+        <div class="day">Tuesday</div>
+        <div class="day">Wednesday</div>
+        <div class="day">Thursday</div>
+    </div>
+</body>
+<script>
+    const paren = document.querySelector('.parent')
+    paren.children[1].style.color = "orange";
+    // console.log(paren.firstElementChild)
+    // console.log(paren.lastElementChild)
+    const first =document.querySelector('.day');
+   // console.log(first.parentElement)
+   console.log("NODES: ",paren.childNodes)
+   
+</script>
+</html>
